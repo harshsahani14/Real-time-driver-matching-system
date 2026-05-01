@@ -1,3 +1,20 @@
+Production-grade real-time driver matching system inspired by Uber’s dispatch architecture.
+
+You open Uber. You request a ride. In seconds, a nearby driver is assigned.
+
+But how?
+
+At any moment, hundreds of drivers are moving across the city in real time. Finding the nearest available driver instantly is not a simple SQL query problem — it’s a distributed systems and real-time geospatial engineering challenge.
+
+This project demonstrates how modern ride-hailing systems solve:
+- real-time driver tracking
+- geospatial searching
+- low-latency matching
+- scalable dispatch architecture
+- event-driven communication
+
+
+
 ## Services Overview
 
 | Service | Port | Responsibility |
